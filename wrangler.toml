@@ -1,0 +1,8 @@
+name = "5-sekund"
+compatibility_date = "2025-01-01"
+
+# Serve the Vite production build as static assets.
+# SPA fallback so any unknown path returns index.html.
+[assets]
+directory = "./dist"
+not_found_handling = "single-page-application"
